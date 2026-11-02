@@ -45,7 +45,7 @@ for (let i = 0; i < ratings.length; i++) {
 }
 
 let i = 0;
-let newSum;
+let newSum = 0;
 while (i < ratings.length) {
   newSum = newSum + ratings[i];
   i++;
