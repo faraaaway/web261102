@@ -1,9 +1,38 @@
 // script.js : 내 영화 평점 통계(콘솔판)
-// // 작성자 : 장성민 (2351044)
+// 작성자 : 장성민 (2351044)
 
-document.write("외부 스크립트 방법");
+//document.write("외부 스크립트 방법");
 
-console.log("여기 부분은 웹페이지가 아니라 콘솔에 출력이 됩니다.");
+// console.log("여기 부분은 웹페이지가 아니라 콘솔에 출력이 됩니다. \n");
+
+// let dan = 3;
+// console.log("구구단 3단 ");
+
+// for (let i = 1; i < 9; i++) {
+//   console.log(`${dan} x ${i} = ${dan * i}`);
+// }
+
+// if (dan === 3) {
+//   console.log("3단이 맞습니다\n");
+// } else {
+//   console.log("틀렸습니다\n");
+// }
+
+// let arr = [80, 70, "글자", 90, 60];
+// console.log(arr);
+// console.log(arr[2]);
+
+// let stdScore = {
+//   korean: 80,
+//   english: 70,
+//   math: 90,
+//   sicence: 60,
+// };
+
+// console.log(stdScore);
+// console.log(stdScore.math);
+// stdScore.name = "홍길동";
+// console.log(stdScore);
 
 const titles = ["곡성", "인터스텔라", "1917", "호프", "우주전쟁"];
 const ratings = [7.38, 8.49, 8.47, 7.2, 6.57];
@@ -74,6 +103,7 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log("년대:", decades.join(", "));
 
+//alert
 const avgText = average.toFixed(1);
 const best = titles[maxIndex];
 alert(`내 영화 ${titles.length}편, 평균 ${avgText}점, 최고는 ${best}`);
