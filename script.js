@@ -45,12 +45,13 @@ for (let i = 0; i < ratings.length; i++) {
 }
 
 let i = 0;
+let newSum;
 while (i < ratings.length) {
-  sum = sum + ratings[i];
+  newSum = newSum + ratings[i];
   i++;
 }
 console.log("합계:", sum);
-console.log("while 합계:", sum);
+console.log("while 합계:", newSum);
 
 //평균 구하기
 const average = sum / ratings.length;
